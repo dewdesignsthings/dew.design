@@ -3,8 +3,8 @@
 
   {%- include head.html -%}
 
-  <body>
-    <main class="page-content" aria-label="Content">
+  <body data-barba="wrapper">
+    <main class="page-content" aria-label="Content" data-barba="container" data-barba-namespace="{{ page.id }}">
       <div class="wrapper">
         {{ content }}
       </div>
