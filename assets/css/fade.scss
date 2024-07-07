@@ -23,3 +23,17 @@
 .fade-enter-to {
   opacity: 1;
 }
+
+.fade-once {
+  opacity: 0;
+  background: red;
+}
+
+.fade-once-active {
+  transition: all 1s linear;
+}
+
+.fade-once-to {
+  opacity: 1;
+  background: pink;
+}

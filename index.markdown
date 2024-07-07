@@ -8,7 +8,11 @@ id: home
 
 <div id="home">
     <div>
-        <marquee direction="down"><h1 id="home-title">dew</h1></marquee>
-        <a href="{{ "/about" | relative_url }}"><h2>about</h2></a>
+        <video autoplay muted loop class="home-video" id="home-video">
+            <source src="/assets/videos/logo-pink.mp4" type="video/mp4">
+        </video>
+        <video autoplay muted loop class="home-video" id="home-video-mobile">
+            <source src="/assets/videos/logo-pink-mobile.mp4" type="video/mp4">
+        </video>
     </div>
 </div>

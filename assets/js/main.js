@@ -7,6 +7,7 @@ barba.init({
     {
       name: 'fade',
       to: { namespace: ['home'] },
+      once: () => {},
       leave() {},
       enter() {},
     }, {
