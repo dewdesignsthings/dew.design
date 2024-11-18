@@ -1,21 +1,36 @@
+@font-face {
+    font-family: 'Typo Round';
+    src: url('/assets/fonts/typo_round_regular.woff2') format('woff2'),
+         url('/assets/fonts/typo_round_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+$primary: #0074d9;
+$body-bg: rgb(247,248,248);
+$btn-border-radius: 2rem;
+$ff-sans-serif: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+.ff-sans-serif {
+    font-family: $ff-sans-serif;
+}
+
+@import "bootstrap/bootstrap";
+
+.wrapper {
+    max-width: none !important;
+}
 body {
-    background-color: pink;
-    color: white;
+    background: radial-gradient(circle, rgba(247,248,248,1) 20%, rgb(183, 218, 192) 100%);
+    font-family: 'Typo Round';
+    color: #494949;
 }
 .page-content {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.page-home {
-    background: pink;
+    padding: 0;
+    // flex: 0;
 }
 .page-about {
     background: ivory;
     color: green;
+}
+.site-footer {
+    border-top: 0;
 }
