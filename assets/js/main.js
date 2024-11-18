@@ -5,13 +5,13 @@ barba.use(barbaCss);
 barba.init({
   transitions: [
     {
-      name: 'fade',
+      name: '',
       to: { namespace: ['home'] },
       once: () => {},
       leave() {},
       enter() {},
     }, {
-      name: 'fade',
+      name: '',
       to: { namespace: ['about'] },
       leave() {},
       enter() {},

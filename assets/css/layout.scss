@@ -1,22 +1,5 @@
-@font-face {
-    font-family: 'Typo Round';
-    src: url('/assets/fonts/typo_round_regular.woff2') format('woff2'),
-         url('/assets/fonts/typo_round_regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-$primary: #0074d9;
-$body-bg: rgb(247,248,248);
-$btn-border-radius: 2rem;
-$ff-sans-serif: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 .ff-sans-serif {
     font-family: $ff-sans-serif;
-}
-
-@import "bootstrap/bootstrap";
-
-.wrapper {
-    max-width: none !important;
 }
 body {
     background: radial-gradient(circle, rgba(247,248,248,1) 20%, rgb(183, 218, 192) 100%);

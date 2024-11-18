@@ -54,6 +54,14 @@
         transform: translateY(0);
     }
 }
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 #home-container {
     position: absolute;
     left: 0;
@@ -64,6 +72,8 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    background: radial-gradient(circle, rgba(247,248,248,1) 20%, rgb(183, 218, 192) 100%);
+    animation: fade 1.5s ease forwards;
     .background {
         position: fixed;
         left: 0;
